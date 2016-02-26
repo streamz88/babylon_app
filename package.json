@@ -7,7 +7,7 @@
     "start": "gulp",
     "test": "karma start"
   },
-  "author": "",
+  "author": "Victor Jegede",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.4.3",
@@ -15,7 +15,7 @@
     "angular-ui-router": "^0.2.15",
     "lodash": "^3.10.0",
     "materialize-css": "^0.97.5",
-    "normalize.css": "^3.0.3",
+    "normalize.css": "^3.0.3"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.3",

@@ -1,10 +1,7 @@
 import angular from 'angular';
 import {homeDirective} from './home.directive';
 
-// placing an export in front of ar var is the same
-// as exporting the var at the end of the file
-// using export {varname}
-export const home = angular.module('home', [])
+const home = angular.module('home', [])
 .config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/');
 
@@ -14,3 +11,5 @@ export const home = angular.module('home', [])
   });
 })
 .directive('home', homeDirective);
+
+export {home};
